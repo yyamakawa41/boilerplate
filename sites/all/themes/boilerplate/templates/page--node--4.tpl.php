@@ -1,3 +1,6 @@
+
+<!-- MEDICATION LIST PAGE -->
+
 <?php
 /**
  * @file

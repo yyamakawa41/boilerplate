@@ -1,5 +1,5 @@
 
-<!-- THIS IS THE LOGIN SITE -->
+<!-- THIS IS THE LOGIN PAGE -->
 
 
 <?php
