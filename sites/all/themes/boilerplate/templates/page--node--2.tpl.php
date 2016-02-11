@@ -1,5 +1,5 @@
 
-<!-- SIGN UP PAGE -->
+<!-- SIGN UP PAGE "/signup"-->
 
 
 <?php
@@ -45,6 +45,7 @@
 
 <div>
   <h1>Welcome to Emory Healthcare</h1>
+  <h3>Please Sign-Up for a portal account</h3>
 
 
 

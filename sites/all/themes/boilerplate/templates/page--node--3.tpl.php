@@ -1,5 +1,5 @@
 
-<!-- PATIENT HEALTH INFO PAGE -->
+<!-- PATIENT HEALTH INFO PAGE "/healthinfo"-->
 
 
 <?php
@@ -45,6 +45,7 @@
 
 <div>
   <h1>Welcome to Emory Healthcare</h1>
+  <h3>Your Healthcare Information</h3>
 
 
 

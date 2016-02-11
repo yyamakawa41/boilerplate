@@ -1,5 +1,5 @@
 
-<!-- THIS IS THE LOGIN PAGE -->
+<!-- THIS IS THE LOGIN PAGE "/login" -->
 
 
 <?php
@@ -10,8 +10,7 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728148
  */
-print_r($node);
-exit;
+
 ?>
 
 <script type="text/javascript" src="/sites/all/themes/boilerplate/js/controller.js"></script>
@@ -45,8 +44,18 @@ exit;
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div>
-  <h1>Welcome to Emory Healthcare</h1>
+<div ng-controller="loginCtrl">
+  <h1>Welcome to Emory Healthcare</h1> 
+  <h3>Please Log-in to your portal</h3>
+
+  ID#: <input type="text" name="username" id="username" ng-model="username" value="" placeholder="Patient ID"> 
+  </br>
+  </br>
+  Password: <input type="password" name="password" id="password" ng-model="password" value="" placeholder="Password">
+  </br>
+  </br>
+  <button type="button" ng-click="submit()">Log-In</button>
+  <a href="http://local-boilerplate.com/signup" title=""><button>Sign Up</button></a>
 
 
 

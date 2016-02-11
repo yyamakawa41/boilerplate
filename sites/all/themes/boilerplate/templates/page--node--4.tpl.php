@@ -1,5 +1,5 @@
 
-<!-- MEDICATION LIST PAGE -->
+<!-- MEDICATION LIST PAGE "/medicationentryform"-->
 
 <?php
 /**
@@ -44,6 +44,7 @@
 
 <div>
   <h1>Welcome to Emory Healthcare</h1>
+  <h3>Edit your patient's Medication</h3>
 
 
 
