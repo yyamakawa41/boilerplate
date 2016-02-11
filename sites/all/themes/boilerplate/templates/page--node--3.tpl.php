@@ -47,6 +47,10 @@
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Your Healthcare Information</h3>
 
+  Patient Medical Records for: {{firstName}} {{lastName}};
+  Patient Medical #: {{username}};
+  
+
 
 
 
