@@ -1553,3 +1553,8 @@ tr.selected td {
 #medentry-container {
   margin-left: 10px;
 }
+
+/* line 55, ../sass/styles.scss */
+#phys-vitals {
+  margin-left: 10px;
+}

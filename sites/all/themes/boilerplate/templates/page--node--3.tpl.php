@@ -47,8 +47,12 @@
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Your Healthcare Information</h3>
 
+  <div>
   Patient Medical Records for: {{firstName}} {{lastName}};
+  </div>
+  <div>
   Patient Medical #: {{username}};
+  </div>
 
   <div class="health-info">
     <h3>Vitals:</h3>
@@ -90,8 +94,7 @@
     <div>
     Future Appointment: </br>
         <input class="appt-input" type="date" name="appt" id="appt" ng-model="appt" value="">
-
-
+        <button type="button" name="appt-submit" ng-click="submit()">Submit</button>
     </div>
   </div>
 

@@ -46,8 +46,45 @@
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Edit your patient's Medication</h3>
 
+    MEDS GO HERE MySQL
 
-
+    <h3>Vitals:</h3>
+    <div id='phys-vitals'>
+      <div>
+        DOB:
+      </div>
+      <div>
+        Age:
+      </div>
+      <div>
+        Height:
+      </div>
+      <div>
+        Weight:
+      </div>
+      <div>
+        HR:
+      </div>
+      <div>
+      BP- Systolic:</br>
+          Diastolic:
+      </div>
+      <div>    
+      Blood Glucose:
+      </div>
+      <div>
+        Oxymetry:
+      </div>
+      <div>
+        Current Medication:
+      </div>
+      <div>
+        Primary Physician:
+      </div>
+      <div>
+        Last Check-up:
+      </div>
+    </div>
 
 </div>
 
