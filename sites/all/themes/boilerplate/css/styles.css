@@ -1543,3 +1543,13 @@ tr.selected td {
 #login-container {
   margin-left: 10px;
 }
+
+/* line 47, ../sass/styles.scss */
+#healthinfo-container {
+  margin-left: 10px;
+}
+
+/* line 51, ../sass/styles.scss */
+#medentry-container {
+  margin-left: 10px;
+}

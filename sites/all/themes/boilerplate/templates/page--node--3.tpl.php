@@ -43,7 +43,7 @@
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div>
+<div id="healthinfo-container">
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Your Healthcare Information</h3>
 
@@ -52,7 +52,47 @@
 
   <div class="health-info">
     <h3>Vitals:</h3>
-    
+    <div>
+      DOB:
+    </div>
+    <div>
+      Age:
+    </div>
+    <div>
+      Height:
+    </div>
+    <div>
+      Weight:
+    </div>
+    <div>
+      HR:
+    </div>
+    <div>
+    BP- Systolic:</br>
+        Diastolic:
+    </div>
+    <div>    
+    Blood Glucose:
+    </div>
+    <div>
+      Oxymetry:
+    </div>
+    <div>
+      Current Medication:
+    </div>
+    <div>
+      Primary Physician:
+    </div>
+    <div>
+      Last Check-up:
+    </div>
+
+    <div>
+    Future Appointment: </br>
+        <input class="appt-input" type="date" name="appt" id="appt" ng-model="appt" value="">
+
+
+    </div>
   </div>
 
 

@@ -1,9 +1,11 @@
-angular.module('myApp', []).controller('myController', function($scope, $http){
+
+
+angular.module('myApp', ['ngRoute']).controller('myController', function($scope, $http){
 
 });
 
 
-myApp.controller('loginCtrl', function($scope){
+angular.module('myApp', ['ngRoute']).controller('loginCtrl', function($scope, $http){
 	$scope.submit = function(){
 		var username = $scope.username;
 		var password = $scope.password;

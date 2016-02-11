@@ -61,7 +61,7 @@
   </br>
   City: <input class="signup-input" type="text" name="city" id="city" ng-model="city" value="" placeholder="City">
   </br>
-  State:<select>
+  State:<select ng-model="state">
     <option value="AL">Alabama</option>
     <option value="AK">Alaska</option>
     <option value="AZ">Arizona</option>

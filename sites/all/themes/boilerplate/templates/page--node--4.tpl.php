@@ -42,7 +42,7 @@
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div>
+<div id="medentry-container">
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Edit your patient's Medication</h3>
 
