@@ -1523,3 +1523,23 @@ tr.selected td {
 #footer {
   text-align: center;
 }
+
+/* line 31, ../sass/styles.scss */
+.login-input {
+  margin: 10px 15px;
+}
+
+/* line 35, ../sass/styles.scss */
+#signup-container {
+  margin-left: 10px;
+}
+
+/* line 39, ../sass/styles.scss */
+.signup-input {
+  margin-top: 7px;
+}
+
+/* line 43, ../sass/styles.scss */
+#login-container {
+  margin-left: 10px;
+}

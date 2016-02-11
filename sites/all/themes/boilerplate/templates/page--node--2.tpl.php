@@ -43,23 +43,23 @@
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div>
+<div id="signup-container">
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Please Sign-Up for a portal account</h3>
 
-  ID#: <input type="text" name="username" id="username" ng-model="username" value="" placeholder="Patient ID"> 
+  ID#: <input class="signup-input" type="text" name="username" id="username" ng-model="username" value="" placeholder="Patient ID"> 
   </br>
-  First Name: <input type="text" name="first-name" id="firstName" ng-model="firstName" value="" placeholder="First Name">
+  First Name: <input class="signup-input" type="text" name="first-name" id="firstName" ng-model="firstName" value="" placeholder="First Name">
   </br>
-  Last Name: <input type="text" name="last-name" id="lastName" ng-model="lastName" value="" placeholder="Last Name">
+  Last Name: <input class="signup-input" type="text" name="last-name" id="lastName" ng-model="lastName" value="" placeholder="Last Name">
   </br>
-  Date of Birth: <input type="date" name="bday" id="bday" ng-model="bday" value="">
+  Date of Birth: <input class="signup-input" type="date" name="bday" id="bday" ng-model="bday" value="">
   </br>
-  SSN#: <input type="text" name="ssn" id="ssn" ng-model="ssn" value="" placeholder="SSN#">
+  SSN#: <input class="signup-input" type="text" name="ssn" id="ssn" ng-model="ssn" value="" placeholder="SSN#">
   </br>
-  Street Address: <input type="text" name="address" id="address" ng-model="address" value="" placeholder="Street Address">
+  Street Address: <input class="signup-input" type="text" name="address" id="address" ng-model="address" value="" placeholder="Street Address">
   </br>
-  City: <input type="text" name="city" id="city" ng-model="city" value="" placeholder="City">
+  City: <input class="signup-input" type="text" name="city" id="city" ng-model="city" value="" placeholder="City">
   </br>
   State:<select>
     <option value="AL">Alabama</option>
@@ -115,11 +115,11 @@
     <option value="WY">Wyoming</option>
   </select>  
   </br>
-  Zip Code: <input type="text" name="zip" id="zip" ng-model="zip" value="" placeholder="Zip Code">   
+  Zip Code: <input class="signup-input" type="text" name="zip" id="zip" ng-model="zip" value="" placeholder="Zip Code">   
   </br>
-  E-mail: <input type="email" name="email" id="email" ng-model="email" value="" placeholder="E-mail Address">
+  E-mail: <input class="signup-input" type="email" name="email" id="email" ng-model="email" value="" placeholder="E-mail Address">
   </br>
-  Phone Number: <input type="tel" name="phone" id="phoneNumber" ng-model="phone" value="" placeholder="Phone Number">
+  Phone Number: <input class="signup-input" type="tel" name="phone" id="phoneNumber" ng-model="phone" value="" placeholder="Phone Number">
   </br>
   <button type="button" ng-click="submit()">Submit</button>
 

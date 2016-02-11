@@ -44,18 +44,19 @@
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div ng-controller="loginCtrl">
+<div ng-controller="loginCtrl" id="login-container">
   <h1>Welcome to Emory Healthcare</h1> 
   <h3>Please Log-in to your portal</h3>
-
-  ID#: <input type="text" name="username" id="username" ng-model="username" value="" placeholder="Patient ID"> 
-  </br>
-  </br>
-  Password: <input type="password" name="password" id="password" ng-model="password" value="" placeholder="Password">
-  </br>
-  </br>
-  <button type="button" ng-click="submit()">Log-In</button>
-  <a href="http://local-boilerplate.com/signup" title=""><button>Sign Up</button></a>
+  <div class="login-input">
+    ID#: <input type="text" name="username" id="username" ng-model="username" value="" placeholder="Patient ID">   
+  </div>
+  <div class="login-input">
+    Password: <input type="password" name="password" id="password" ng-model="password" value="" placeholder="Password">
+  </div>
+  <div class="login-input">
+    <button type="button" ng-click="submit()">Log-In</button>
+    <a href="http://local-boilerplate.com/signup" title=""><button>Sign Up</button></a>
+  </div>
 
 
 

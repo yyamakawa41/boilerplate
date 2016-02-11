@@ -49,7 +49,11 @@
 
   Patient Medical Records for: {{firstName}} {{lastName}};
   Patient Medical #: {{username}};
-  
+
+  <div class="health-info">
+    <h3>Vitals:</h3>
+    
+  </div>
 
 
 
