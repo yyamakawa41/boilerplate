@@ -57,48 +57,47 @@
     <h3><b><i>Medication History:</i></b> <table border="1"></h3>
       <h3>
       <tr>
-      <td><b>Generic Name</b></td>
-      <td><b>Brand Name</b></td>
+      <td class="medtbl"><b>Generic Name</b></td>
+      <td class="medtbl"><b>Brand Name</b></td>
       </tr>
       <tr>
-      <td>Aspirin</td>
-      <td>BayerAspirin</td>
+      <td class="medtbl">Aspirin</td>
+      <td class="medtbl">BayerAspirin</td>
       </tr>
       <tr>
-      <td>Atenolol</td>
-      <td>NA</td>
+      <td class="medtbl">Atenolol</td>
+      <td class="medtbl">NA</td>
       </tr>
       <tr>
-      <td>Etomidate</td>
-      <td>Hypnomidate</td>
+      <td class="medtbl">Etomidate</td>
+      <td class="medtbl">Hypnomidate</td>
       </tr>
       <tr>
-      <td>Fentanyl</td>
-      <td>Duragesic</td>
+      <td class="medtbl">Fentanyl</td>
+      <td class="medtbl">Duragesic</td>
       </tr>
       <tr>
-      <td>Ketamine</td>
-      <td>Ketalar</td>
+      <td class="medtbl">Ketamine</td>
+      <td class="medtbl">Ketalar</td>
       </tr>
       <tr>
-      <td>Lisinopril</td>
-      <td>Tensopril</td>
+      <td class="medtbl">Lisinopril</td>
+      <td class="medtbl">Tensopril</td>
       </tr>
       <tr>
-      <td>Metoprolol</td>
-      <td>Lopressor</td>
+      <td class="medtbl">Metoprolol</td>
+      <td class="medtbl">Lopressor</td>
       </tr>
       <tr>
-      <td>Sodium Bicarbonate</td>
-      <td>Tums</td>
+      <td class="medtbl">Sodium Bicarbonate</td>
+      <td class="medtbl">Tums</td>
       </tr>
       <tr>
-      <td>Warfarin</td>
-      <td>Coumadin</td>
+      <td class="medtbl">Warfarin</td>
+      <td class="medtbl">Coumadin</td>
       </tr>
       </table>
       </h3> 
-    </br>
     <button type="button" ng-click="submit()">edit</button>
     <h3>Vitals:</h3>
     <div id='phys-vitals'>
