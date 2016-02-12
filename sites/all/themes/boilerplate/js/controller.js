@@ -2,10 +2,6 @@
 
 angular.module('myApp', ['ngRoute']).controller('myController', function($scope, $http){
 
-});
-
-
-angular.module('myApp', ['ngRoute']).controller('loginCtrl', function($scope, $http){
 	$scope.submit = function(){
 		var username = $scope.username;
 		var password = $scope.password;

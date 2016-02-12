@@ -44,7 +44,7 @@
       <?php endif; ?>
       <?php print render($page['']); ?>
 
-<div ng-controller="loginCtrl" id="login-container">
+<div id="login-container">
   <h1>Welcome to Emory Healthcare</h1> 
   <h3>Please Log-in to your portal</h3>
   <div class="login-input">
