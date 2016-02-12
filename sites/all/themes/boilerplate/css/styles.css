@@ -1566,3 +1566,8 @@ h1#page-title {
   color: white;
   border-bottom: 15px solid gold;
 }
+
+/* line 66, ../sass/styles.scss */
+td {
+  padding-left: 5px;
+}

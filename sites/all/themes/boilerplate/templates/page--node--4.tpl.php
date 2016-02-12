@@ -54,7 +54,50 @@
     </div>
     </br>
 
-    <h3><b><i>Medication History:</i></b> Aspirin, Atenolol, Etomidate, Fentanyl, Ketamine, Lisinopril, Metoprolol, Sodium Bicarbonate, Warfarin</h3> 
+    <h3><b><i>Medication History:</i></b> <table border="1"></h3>
+      <h3>
+      <tr>
+      <td><b>Generic Name</b></td>
+      <td><b>Brand Name</b></td>
+      </tr>
+      <tr>
+      <td>Aspirin</td>
+      <td>BayerAspirin</td>
+      </tr>
+      <tr>
+      <td>Atenolol</td>
+      <td>NA</td>
+      </tr>
+      <tr>
+      <td>Etomidate</td>
+      <td>Hypnomidate</td>
+      </tr>
+      <tr>
+      <td>Fentanyl</td>
+      <td>Duragesic</td>
+      </tr>
+      <tr>
+      <td>Ketamine</td>
+      <td>Ketalar</td>
+      </tr>
+      <tr>
+      <td>Lisinopril</td>
+      <td>Tensopril</td>
+      </tr>
+      <tr>
+      <td>Metoprolol</td>
+      <td>Lopressor</td>
+      </tr>
+      <tr>
+      <td>Sodium Bicarbonate</td>
+      <td>Tums</td>
+      </tr>
+      <tr>
+      <td>Warfarin</td>
+      <td>Coumadin</td>
+      </tr>
+      </table>
+      </h3> 
     </br>
     <button type="button" ng-click="submit()">edit</button>
     <h3>Vitals:</h3>
