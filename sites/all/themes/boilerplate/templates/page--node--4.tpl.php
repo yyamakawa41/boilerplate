@@ -46,45 +46,55 @@
   <h1>Welcome to Emory Healthcare</h1>
   <h3>Edit your patient's Medication</h3>
 
-    MEDS GO HERE MySQL
+    <div>
+    <b>Patient Medical Records for:</b> John Smith
+    </div>
+    <div>
+    <b>Patient Medical #:</b> ABC1234567-8
+    </div>
+    </br>
+
+    <h3><b><i>Medication History:</i></b> Aspirin, Atenolol, Etomidate, Fentanyl, Ketamine, Lisinopril, Metoprolol, Sodium Bicarbonate, Warfarin</h3> 
 
     <h3>Vitals:</h3>
     <div id='phys-vitals'>
-      <div>
-        DOB:
-      </div>
-      <div>
-        Age:
-      </div>
-      <div>
-        Height:
-      </div>
-      <div>
-        Weight:
-      </div>
-      <div>
-        HR:
-      </div>
-      <div>
-      BP- Systolic:</br>
-          Diastolic:
-      </div>
-      <div>    
-      Blood Glucose:
-      </div>
-      <div>
-        Oxymetry:
-      </div>
-      <div>
-        Current Medication:
-      </div>
-      <div>
-        Primary Physician:
-      </div>
-      <div>
-        Last Check-up:
-      </div>
+    <div>
+      <b>DOB:</b> 08/05/1986
     </div>
+    <div>
+      <b>Age:</b> 29
+    </div>
+    <div>
+      <b>Height:</b> 184cm
+    </div>
+    <div>
+      <b>Weight:</b> 82kg
+    </div>
+    <div>
+      <b>HR: 68</b>
+    </div>
+    <div>
+    <b>BP- Systolic:</b> 120</br>
+        <b>Diastolic:</b> 70
+    </div>
+    <div>    
+    <b>Blood Glucose:</b> 88 mg/dL
+    </div>
+    <div>
+      <b>Oximetry:</b> 97%
+    </div>
+    <div>
+      <b>Current Medication:</b> Aspirin, Acetaminophen, Salbutamol
+    </div>
+    <div>
+      <b>Primary Physician:</b> Dr. Omar Lattouf
+    </div>
+    <div>
+      <b>Last Check-up:</b> 12/03/2015
+    </div>
+
+      <button type="button" ng-click="submit()">Update</button>
+
 
 </div>
 

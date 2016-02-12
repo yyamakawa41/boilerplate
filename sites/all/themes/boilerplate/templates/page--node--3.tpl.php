@@ -48,51 +48,51 @@
   <h3>Your Healthcare Information</h3>
 
   <div>
-  Patient Medical Records for: {{firstName}} {{lastName}};
+  <b>Patient Medical Records for:</b> John Smith
   </div>
   <div>
-  Patient Medical #: {{username}};
+  <b>Patient Medical #:</b> ABC1234567-8
   </div>
 
   <div class="health-info">
     <h3>Vitals:</h3>
     <div>
-      DOB:
+      <b>DOB:</b> 08/05/1986
     </div>
     <div>
-      Age:
+      <b>Age:</b> 29
     </div>
     <div>
-      Height:
+      <b>Height:</b> 184cm
     </div>
     <div>
-      Weight:
+      <b>Weight:</b> 82kg
     </div>
     <div>
-      HR:
+      <b>HR: 68</b>
     </div>
     <div>
-    BP- Systolic:</br>
-        Diastolic:
+    <b>BP- Systolic:</b> 120</br>
+        <b>Diastolic:</b> 70
     </div>
     <div>    
-    Blood Glucose:
+    <b>Blood Glucose:</b> 88 mg/dL
     </div>
     <div>
-      Oxymetry:
+      <b>Oximetry:</b> 97%
     </div>
     <div>
-      Current Medication:
+      <b>Current Medication:</b> Aspirin, Acetaminophen, Salbutamol
     </div>
     <div>
-      Primary Physician:
+      <b>Primary Physician:</b> Dr. Omar Lattouf
     </div>
     <div>
-      Last Check-up:
+      <b>Last Check-up:</b> 12/03/2015
     </div>
 
     <div>
-    Future Appointment: </br>
+    <b>Future Appointment:</b> </br>
         <input class="appt-input" type="date" name="appt" id="appt" ng-model="appt" value="">
         <button type="button" name="appt-submit" ng-click="submit()">Submit</button>
     </div>
