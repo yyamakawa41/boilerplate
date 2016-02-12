@@ -55,7 +55,8 @@
     </br>
 
     <h3><b><i>Medication History:</i></b> Aspirin, Atenolol, Etomidate, Fentanyl, Ketamine, Lisinopril, Metoprolol, Sodium Bicarbonate, Warfarin</h3> 
-
+    </br>
+    <button type="button" ng-click="submit()">edit</button>
     <h3>Vitals:</h3>
     <div id='phys-vitals'>
     <div>
